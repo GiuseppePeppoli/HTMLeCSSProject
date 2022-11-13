@@ -10,6 +10,11 @@
     padding: 10px;
   }
   
+  #navbar a:visited {
+    background-color: black;
+    color: white;
+  }
+  
   .main {
     margin-left: 10px;
     margin-right: 10px;
