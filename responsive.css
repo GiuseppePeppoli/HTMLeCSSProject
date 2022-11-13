@@ -1,5 +1,5 @@
 /* Mobile Styles */
-@media (max-width: 576px) {
+@media (max-width: 360px) {
   #navbar {
     display: flex;
     justify-content: center;
