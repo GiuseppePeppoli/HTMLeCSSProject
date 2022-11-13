@@ -1,0 +1,43 @@
+/* Mobile Styles */
+@media all and (max-width: 400px) {
+  #navbar {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  
+  .main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .skills_text {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .skills_section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .icons_left {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 50px;
+  }
+
+  .icons_right {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 250px;
+  }
+  
+}
