@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     white-space: nowrap;
-    font-size: 14px;
   }
   
   #navbar a {
