@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="section.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@300;400;700&amp;display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+
+  <header class="header">
+    <video autoplay="" muted="" loop="" class="videoInsert">
+      <source type="video/mp4" src="video/Line_46954.mp4">
+      <source type="video/webm" src="video/Line _46954_webm.webm">
+      Your browser does not support the video tag.
+    </video>
+
+    <navbar class="navbar" id="navbar">
+      <div class="option"><a href="#info">Chi sono</a></div>
+      <div class="option"><a href="#skills">Skills</a></div>
+      <div class="option"><a href="">Progetti</a></div>
+      <div class="option"><a href="">Contatti</a></div>
+    </navbar>
+  </header>
+
+
+
+  <main class="main">
+    <div class="info" id="info">
+      <p class="bio">
+        Giuseppe Peppoli<br>
+        Web Developer<br></p>
+      <p>Ciao, mi chiamo Giuseppe, anno '89 e vivo in provincia di Roma.<br> Sono agli inizi del mio percorso da
+        sviluppatore.<br>
+        Anima nerd da sempre, appassionato della cultura pop e del rock.<br>
+        Mi destreggio tra i fornelli e amo il campeggio.</p>
+      <img src="img/profile-pic.png" class="profile-pic" alt="profile-pic">
+    </div>
+
+    <div class="customHr">.</div>
+
+  <div class="skills_section">
+
+    <left-section class="icons_left">
+
+      <a target="_blank" href="https://it.wikipedia.org/wiki/HTML" class="">
+        <img class="logo html" src="img/html5_logo.svg" alt="Html_logo">
+      </a>
+      
+      <a target="_blank" href="https://it.wikipedia.org/wiki/CSS" class="">
+        <img class="logo css" src="img/css3_logo.svg" alt="Css_logo">
+      </a>
+      
+    </left-section>
+      
+    <center-section class="skills_text">
+      
+      <p class="title">Skills</p>
+      
+      <p class="description">Ho scelto di diventare un Full Stack Developer affascinato da questo mondo e<br>
+      accompagnato dalla voglia di esplorarlo a
+      360° gradi.
+      <br>
+      <br>
+      Qui le basi del mio percorso di studio. Iniziando con l'HTML e CSS, non sono<br>
+      linguaggi di programmazione ma sono ciò che
+      danno vita alla struttura e allo<br>a
+       stile delle pagine web.
+      <br>
+      <br>
+      Con loro abbiamo Sass e Bootstrap, il primo migliora la sintassi del CSS
+      <br>rendendolo più semplice e meno pensante per i
+      nostri siti, il secondo è un
+      <br>framework gratuito e open source per lo sviluppo web che consiste in una
+      <br>raccolta di
+      strumenti grafici, stilistici e di impaginazione che permettono di<br>
+       avere a disposizione una gran quantità di
+      funzionalità e di stili modificabili e<br>
+      adattabili a seconda delle nostre esigenze.
+</p>
+
+    </center-section>
+
+    <right-section class="icons_right" id="skills">
+      
+      <a target="_blank" href="https://it.wikipedia.org/wiki/Sass" class="">
+        <img class="logo sass" src="img/sass_Logo.svg.png" alt="Sass_logo">
+      </a>
+      
+      <a target="_blank" href="https://it.wikipedia.org/wiki/Bootstrap_(framework)" class="">
+        <img class="logo bootstrap" src="img/bootstrap_logo.svg" alt="Bootstrap_logo">
+      </a>
+      
+    </right-section>
+
+  </div>
+  <br>
+
+  <div class="customHr">.</div>
+
+
+
+
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function () {
+      var currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-50px";
+      }
+      prevScrollpos = currentScrollPos;
+    }
+  </script>
+
+
+
+
+</body>
+
+</html>
+
