@@ -15,6 +15,11 @@
     color: white;
   }
   
+  .bio,
+  .title {
+    font-size: 30px;
+  }
+  
   .main {
     margin-left: 10px;
     margin-right: 10px;
