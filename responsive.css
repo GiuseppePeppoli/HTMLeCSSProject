@@ -6,17 +6,18 @@
     justify-content: center;
     white-space: nowrap;
     font-size: 14px;
+    height: 40px
+ 
   }
 
   #navbar a {
-    padding: 16px;
+    padding: 11px;
   }
 
   #navbar a:hover {
   background-color: #ddd;
   color: black;
-}
-  
+}  
   
   .bio,
   .skills_title {
