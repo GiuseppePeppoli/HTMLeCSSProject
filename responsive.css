@@ -1,0 +1,138 @@
+/* Mobile Styles */
+@media only screen and (max-width: 576px) {
+
+  #navbar {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 14px;
+    height: 40px;
+  }
+
+  #navbar a {
+    padding: 11px;
+  }
+ 
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .bio,
+  .skills_title,
+  .project_title,
+  .contact_title {
+    font-size: 30px !important;
+  }
+
+  .videoInsert {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -12;
+  }
+
+  .main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .skills_text,
+  .project_text,
+  .footer_text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .skills_section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .icons_left {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 50px;
+  }
+
+  .icons_right {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 50px;
+  }
+
+}
+
+
+/* Tablet Styles */
+ @media only screen and (min-width: 577px) and (max-width: 992px) {
+ 
+#navbar {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    height: 40px;
+  }
+
+  #navbar a {
+    padding: 11px;
+  }
+
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .skills_text,
+  .project_text,
+  .footer_text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .skills_section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .icons_left {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 50px;
+  }
+
+  .icons_right {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 50px;
+  }
+
+  .bio,
+  .skills_title,
+  .project_title,
+  .contact_title {
+    font-size: 35px;
+  }
+
+}
