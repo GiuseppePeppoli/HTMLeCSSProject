@@ -11,14 +11,6 @@ body {
   background-color: black;
 }
 
-
-.videoInsert {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  z-index: -12;
-}
-
 #navbar {
   background-color: black;
   position: fixed;
