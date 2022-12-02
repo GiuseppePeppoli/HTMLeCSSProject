@@ -5,11 +5,10 @@
 
 .profile-pic {
   object-fit: cover;
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  margin-top: 50px;
-  margin-bottom: 130px;  
+  width: 230px;
+  height: 230px;
+  border-radius: 115px;
+  margin-top: 150px;
 }
 
 .info {
@@ -17,12 +16,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .bio {
   font-size: 40px;
   margin-bottom: 20px;
-  padding-top: 200px;
+  padding-top: 70px;
 }
 
 .customHr {
