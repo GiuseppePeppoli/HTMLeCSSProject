@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Trispace, Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+body {
+  height: 2500px;
+  background-color: black;
+}
+
+#navbar {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  transition: top 0.3s;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn {
+  color: white;
+  font-family: Trispace;
+  
+}
