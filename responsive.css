@@ -1,0 +1,133 @@
+/* Mobile Styles */
+@media only screen and (max-width: 576px) {
+
+  #navbar {
+    white-space: nowrap;
+    height: 40px;
+  }
+
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bio,
+  .skills_title,
+  .project_title,
+  .contact_title {
+    font-size: 30px !important;
+  }
+
+  .main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .skills_text,
+  .project_text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .skills_section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icons_left {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 50px;
+  }
+
+  .icons_right {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 50px;
+  }
+
+  #nome,
+  #email,
+  #cellulare,
+  #testo {
+    width: 306px;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+#navbar {
+    white-space: nowrap;
+    height: 40px;
+  }
+
+  .container-fluid {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .skills_text,
+  .project_text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .skills_section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icons_left {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 50px;
+  }
+
+  .icons_right {
+    order: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 50px;
+  }
+
+  .bio,
+  .skills_title,
+  .project_title,
+  .contact_title {
+    font-size: 35px !important;
+  }
+
+  #nome,
+  #email,
+  #cellulare,
+  #testo {
+    width: 500px;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+
+}
